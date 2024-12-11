@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lana Davydov | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- AOS Library for Animations -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="portfolio_styles.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo"><a href="#" data-lang-key="logo">Lana Davydov</a></h1>
+      <ul class="nav-links">
+        <li><a href="#about" data-lang-key="nav_about">About</a></li>
+        <li><a href="#skills" data-lang-key="nav_skills">Skills</a></li>
+        <li><a href="#resume" data-lang-key="nav_resume">Resume</a></li>
+        <li><a href="#contact" data-lang-key="nav_contact">Contact</a></li>
+      </ul>
+      <!-- Language Switcher -->
+      <div class="language-switcher" aria-label="Language Switcher">
+        <select id="language-select">
+          <option value="en" selected>🇺🇸 English</option>
+          <option value="ru">🇷🇺 Русский</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="it">🇮🇹 Italiano</option>
+        </select>
+      </div>
+      <!-- Hamburger Menu -->
+      <div class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Hero Section with Typing Effect -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h2>
+        <span data-lang-key="hero_greeting">Hi, I'm</span>
+        <span class="typing" data-lang-key="hero_typing"></span>
+      </h2>
+      <p data-lang-key="hero_subtitle">Welcome to my page!</p>
+      <a href="#resume" class="btn" data-lang-key="hero_button">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- Floating Social Media Icons -->
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/lana-davydov/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/lanadavydov" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    
+    <!-- Add more social icons as needed -->
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="about" data-aos="fade-up">
+    <h2 class="section-title" data-lang-key="about_title">About Me</h2>
+    <p class="scroll-animation" data-lang-key="about_description">
+      Hi, it’s a pleasure to virtually meet you! My name is Lana Davydov, an undergraduate student at New York University studying Computer Science with a minor in Integrated Design and Media.
+    </p>
+    <br>
+    <p>I’m someone who makes an impact and tells a story with everything and anything that I do. That's because I believe that being able to connect with others by telling a story is what impacts the world around us. Being able to connect with others is what allows individuals to build bridges and to extend a hand over to new communities or to communities that have been silenced, isolated, or disconnected. </p>
+    <br>
+    <p>I want to be an Intern at Pinterest because I want to continue making an impact, being a changemaker, sharing others’ stories, and connecting with the world around me. I want to drive change and push the limits of technology. I want to innovate for the present-day and future of our society. I want to make a space for individuals’ whose stories need to be told through my projects. On a team, I want to work with brilliant minds, to come together as humans first, and innovators next. Technology has evolved in unimaginable ways and has created new modes of connection across individuals globally. By sharing stories through the technology we create, I believe that it is only then, that we can begin to understand one another on a human-level, cultivate relationships, and truly make impact on the communities around us through our technological advancements. Excellence is made when impact is achieved. And to achieve impact, we must create, innovate, and challenge with purpose and intention. I’m someone who interweaves storytelling, technology, innovation, and reinvention to create impact. I’m someone who wants to be a part of the next generation of Pinterest excellence.</p>
+  </section>
+  
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills" data-aos="fade-up">
+    <h2 class="section-title" data-lang-key="skills_title">Skills</h2>
+    <div class="skills-container">
+      <div class="skill scroll-animation" data-lang-key="skill_python">Python</div>
+      <div class="skill scroll-animation" data-lang-key="skill_html_css">HTML/CSS</div>
+      <div class="skill scroll-animation" data-lang-key="skill_javascript">JavaScript</div>
+      <div class="skill scroll-animation" data-lang-key="skill_react">React Native</div>
+      <div class="skill scroll-animation" data-lang-key="skill_javascript">Java</div>
+      <div class="skill scroll-animation" data-lang-key="skill_react">TypeScript</div>
+      <div class="skill scroll-animation" data-lang-key="skill_javascript">C</div>
+      <div class="skill scroll-animation" data-lang-key="skill_react">Assembly</div>
+      <div class="skill scroll-animation" data-lang-key="skill_javascript">UNIX Shell Scripting</div>
+      <div class="skill scroll-animation" data-lang-key="skill_uiux">UI/UX Design</div>
+      
+    </div>
+  </section>
+  
+  <!-- Resume Section -->
+<section id="resume" class="resume" data-aos="fade-up">
+  <h2 class="section-title" data-lang-key="resume_title">Resume</h2>
+  <div class="resume-content">
+    <p data-lang-key="resume_description">
+      View and download my Resume by clicking the button below:
+    </p>
+    <a href="https://drive.google.com/file/d/1ZduNHJgAtHEyoq9c6sgpJ1mVuEAQGuqJ/view?usp=sharing" target="_blank" class="btn resume-btn" data-lang-key="download_resume">
+      Download Resume
+    </a>
+  </div>
+</section>
+
+
+  <!-- Portfolio Section
+  <section id="portfolio" class="portfolio" data-aos="fade-up">
+    <h2 class="section-title" data-lang-key="portfolio_title">Portfolio</h2>
+    <div class="portfolio-filters">
+      <button data-filter="all" class="active" data-lang-key="filter_all">All</button>
+      <button data-filter="web" data-lang-key="filter_web">Web Development</button>
+      <button data-filter="design" data-lang-key="filter_design">Design</button>
+      <button data-filter="app" data-lang-key="filter_app">App Development</button>
+    </div>
+    <div class="portfolio-items">
+      <div class="portfolio-item scroll-animation" data-category="web">
+        <img src="images/project1.jpg" alt="Project 1">
+        <div class="overlay">
+          <h3 data-lang-key="project1_title">Project 1</h3>
+          <p data-lang-key="project1_category">Web Development</p>
+        </div>
+      </div>
+      <div class="portfolio-item scroll-animation" data-category="design">
+        <img src="images/project2.jpg" alt="Project 2">
+        <div class="overlay">
+          <h3 data-lang-key="project2_title">Project 2</h3>
+          <p data-lang-key="project2_category">Design</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2 class="section-title" data-lang-key="contact_title">Contact Me</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Name" required aria-label="Name" data-lang-key="contact_placeholder_name">
+      <input type="email" name="_replyto" placeholder="Email" required aria-label="Email" data-lang-key="contact_placeholder_email">
+      <textarea name="message" placeholder="Message" required aria-label="Message" data-lang-key="contact_placeholder_message"></textarea>
+      <button type="submit" class="btn" data-lang-key="contact_button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Portfolio Modal -->
+  <div id="portfolio-modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <span class="close-button" aria-label="Close Modal">&times;</span>
+      <h2 id="modal-title">Project Title</h2>
+      <img id="modal-image" src="" alt="Project Image">
+      <p id="modal-description">Project Description</p>
+      <a href="#" id="modal-link" target="_blank" class="btn">View Project</a>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  
+  <!-- JavaScript -->
+  <script src="portfolio_script.js"></script>
+</body>
+</html>
